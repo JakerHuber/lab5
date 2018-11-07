@@ -1,32 +1,31 @@
       html {
         font-family: 'Open Sans', sans-serif;
-        background-image: url("earth.gif");
-        color: #0b0b0b;
       }
       /*Start Fixed Layout CSS*/
       body {
         font:inherit;
+        font
         vertical-align: baseline;
         margin-right: auto;
         margin-left: auto;
         width: 960px;
-        background-image: url("earth.gif");
-        background-attachment: fixed;
+        background-image: url("stars.gif");
       }
       h1 {
-        margin-right: 10px;
-        margin-left: 10px;
+        color: white;
+        font-size: 60px;
         width: 960px;
         text-align: center;
       }
       h2 {
-        margin-right: 10px;
-        margin-left: 10px;
+        color: white;
+        font-size: 35px;
         width: 960px;
         text-align: center;
       }
       /*Start images and media*/
       img{
+        
         border-radius: 1em;
         max-width: 100%;
         height: auto;
@@ -35,3 +34,17 @@
         margin-right: auto;
         display: block;
       }
+      table, th, td {
+        border: 2px solid gainsboro;
+        text-align: center;
+        background-color: grey;
+      }
+      table {
+        width: 100%;
+        border: 2px solid grey;
+      }
+      th {
+        height: 40px;
+        background-color: gainsboro;
+      }
+
