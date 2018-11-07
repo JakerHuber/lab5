@@ -1,8 +1,6 @@
       html {
         font-family: 'Open Sans', sans-serif;
-        background-color: #FBFBFF;
-        border-top: 46px solid #757575;
-        box-sizing: border-box;
+        background-image: url("earth.gif");
         color: #0b0b0b;
       }
       /*Start Fixed Layout CSS*/
@@ -12,19 +10,19 @@
         margin-right: auto;
         margin-left: auto;
         width: 960px;
-        background-color: #FBFBFF;
+        background-image: url("earth.gif");
+        background-attachment: fixed;
       }
-      wrapper {
-        margin-right: auto;
-        margin-left: auto;
-        width: 960px;
-        background-color: #FBFBFF;
-        border-top: 2px solid #0b0b0b;
-      }
-      #body.h1 {
+      h1 {
         margin-right: 10px;
         margin-left: 10px;
-        width: 940px;
+        width: 960px;
+        text-align: center;
+      }
+      h2 {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 960px;
         text-align: center;
       }
       /*Start images and media*/
