@@ -1,0 +1,39 @@
+      html {
+        font-family: 'Open Sans', sans-serif;
+        background-color: #FBFBFF;
+        border-top: 46px solid #757575;
+        box-sizing: border-box;
+        color: #0b0b0b;
+      }
+      /*Start Fixed Layout CSS*/
+      body {
+        font:inherit;
+        vertical-align: baseline;
+        margin-right: auto;
+        margin-left: auto;
+        width: 960px;
+        background-color: #FBFBFF;
+      }
+      wrapper {
+        margin-right: auto;
+        margin-left: auto;
+        width: 960px;
+        background-color: #FBFBFF;
+        border-top: 2px solid #0b0b0b;
+      }
+      #body.h1 {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 940px;
+        text-align: center;
+      }
+      /*Start images and media*/
+      img{
+        border-radius: 1em;
+        max-width: 100%;
+        height: auto;
+        max-height: 20em;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
