@@ -4,7 +4,6 @@
       /*Start Fixed Layout CSS*/
       body {
         font:inherit;
-        font
         vertical-align: baseline;
         margin-right: auto;
         margin-left: auto;
@@ -25,7 +24,6 @@
       }
       /*Start images and media*/
       img{
-        
         border-radius: 1em;
         max-width: 100%;
         height: auto;
@@ -35,15 +33,14 @@
         display: block;
       }
       table, th, td {
-        border: 2px solid gainsboro;
         text-align: center;
-        background-color: grey;
       }
       table {
-        width: 100%;
-        border: 2px solid grey;
+        border-collapse: collapse;
+        border: 5px solid grey;
       }
       th {
+        border: 2px solid grey;
         height: 40px;
         background-color: gainsboro;
       }
